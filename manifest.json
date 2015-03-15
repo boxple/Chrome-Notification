@@ -1,0 +1,13 @@
+{
+  "name": "Cooltown Mr.Push",
+  "description": "Push me or leave me",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": { "16": "/images/icon_cool.png", "128": "/images/icon_cool.png" },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["storage", "gcm", "notifications", "http://cooluck.cooltown.me/*"]
+}
